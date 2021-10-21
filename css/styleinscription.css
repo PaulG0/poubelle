@@ -1,0 +1,19 @@
+body{
+	display: flex;
+	justify-content: center;
+	margin: 100px;
+}
+.part1{
+	background-color: lightskyblue;
+	width: 100px;
+}
+.part2{
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	background-color: royalblue;
+	height: 500px;
+	width: 600px;
+	color: ghostwhite;
+	padding: 10px;
+}
