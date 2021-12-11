@@ -1,0 +1,64 @@
+.caseL{
+	align-content: flex-start;
+	display: flex;
+	
+
+	background-color: #F406CC;
+	height: 500px;
+	width: 200px;
+	border-radius: 50px 0px 0px 50px; 
+
+}
+.caseR{
+	background-color: white;
+	border-radius: 0px 50px 50px 0px; 
+	
+
+	display: flex;
+	justify-content: flex-start;
+	
+
+	height: 500px;
+	width: 500px;
+
+}
+
+h3{
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 20px;
+}
+h6{
+	font-size: 10px;
+	display: flex;
+	align-content: flex-start;
+}
+input, textarea{
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 20px;
+}
+table{
+	display: flex;
+	border-collapse: collapse;
+	border-radius: 50px;
+	margin-top: 10%
+}
+body{	
+	background-color: grey;
+
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	
+}
+.bouton{
+	display: flex;
+	justify-content: center;
+	background-color:#1A191A ;
+	color: white;
+	border-radius: 10px;
+	height: 30px;
+	width: 90px;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>1er formulaire</title>
+	<link rel="stylesheet"  href="style.css">
+</head>
+	<body>
+<table>
+<tr>
+	<th class="caseL">	
+		<div>
+			<h1>Nous contacter</h1>
+			<h2>Nous serions ravis de vous entendre !</h2>
+		</div>
+	</th>
+<th>
+		<div class="caseR">
+		<form method="post" action="php.php">
+			<h3>PRENOM*</h3>
+			<input type="text" required="required" name="prenom" placeholder="prenom">
+			<h3>NOM DE FAMILLE*</h3>
+			<input type="text" required="required" name="nom" placeholder="nom">
+			<h3>EMAIL*</h3>
+			<input type="email" required="required" name="email" placeholder="email">
+			<h3>COMMENTAIRE*</h3>
+			<textarea required="required" name="commentaire" placeholder="commentaire"></textarea>
+			<br>
+			<input class="bouton" type="submit" name="submit" placeholder="submit">
+		</form>
+</th>	</div>
+</tr>
+</table>
+
+	</body>
+</html>
